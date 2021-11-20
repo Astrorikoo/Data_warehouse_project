@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="SQLite_VTable" targetName="ExperimentalCoverage" />
+      <config projectName="SQLite_VTable" targetName="ExperimentalMemCheck" />
+      <config projectName="SQLite_VTable" targetName="b_plus_tree_concurrent_test" />
+      <config projectName="SQLite_VTable" targetName="sqlite3_shell" />
+      <config projectName="SQLite_VTable" targetName="NightlyBuild" />
+      <config projectName="SQLite_VTable" targetName="virtual_table_test" />
+      <config projectName="SQLite_VTable" targetName="lru_replacer_test" />
+      <config projectName="SQLite_VTable" targetName="ExperimentalUpdate" />
+      <config projectName="SQLite_VTable" targetName="check" />
+      <config projectName="SQLite_VTable" targetName="extendible_hash_test" />
+      <config projectName="SQLite_VTable" targetName="NightlyUpdate" />
+      <config projectName="SQLite_VTable" targetName="ContinuousStart" />
+      <config projectName="SQLite_VTable" targetName="tuple_test" />
+      <config projectName="SQLite_VTable" targetName="rwmutex_test" />
+      <config projectName="SQLite_VTable" targetName="ContinuousConfigure" />
+      <config projectName="SQLite_VTable" targetName="NightlyStart" />
+      <config projectName="SQLite_VTable" targetName="ContinuousSubmit" />
+      <config projectName="SQLite_VTable" targetName="Continuous" />
+      <config projectName="SQLite_VTable" targetName="b_plus_tree_test" />
+      <config projectName="SQLite_VTable" targetName="NightlyMemoryCheck" />
+      <config projectName="SQLite_VTable" targetName="gtest" />
+      <config projectName="SQLite_VTable" targetName="buffer_pool_manager_test" />
+      <config projectName="SQLite_VTable" targetName="NightlyCoverage" />
+      <config projectName="SQLite_VTable" targetName="ContinuousTest" />
+      <config projectName="SQLite_VTable" targetName="b_plus_tree_print_test" />
+      <config projectName="SQLite_VTable" targetName="NightlyMemCheck" />
+      <config projectName="SQLite_VTable" targetName="ExperimentalBuild" />
+      <config projectName="SQLite_VTable" targetName="ContinuousUpdate" />
+      <config projectName="SQLite_VTable" targetName="ExperimentalConfigure" />
+      <config projectName="SQLite_VTable" targetName="ExperimentalStart" />
+      <config projectName="SQLite_VTable" targetName="ContinuousMemCheck" />
+      <config projectName="SQLite_VTable" targetName="sqlite3" />
+      <config projectName="SQLite_VTable" targetName="type_test" />
+      <config projectName="SQLite_VTable" targetName="vtable" />
+      <config projectName="SQLite_VTable" targetName="ExperimentalTest" />
+      <config projectName="SQLite_VTable" targetName="Nightly" />
+      <config projectName="SQLite_VTable" targetName="lock_manager_test" />
+      <config projectName="SQLite_VTable" targetName="NightlySubmit" />
+      <config projectName="SQLite_VTable" targetName="ContinuousBuild" />
+      <config projectName="SQLite_VTable" targetName="ContinuousCoverage" />
+      <config projectName="SQLite_VTable" targetName="Experimental" />
+      <config projectName="SQLite_VTable" targetName="NightlyTest" />
+      <config projectName="SQLite_VTable" targetName="ExperimentalSubmit" />
+      <config projectName="SQLite_VTable" targetName="log_manager_test" />
+      <config projectName="SQLite_VTable" targetName="header_page_test" />
+      <config projectName="SQLite_VTable" targetName="NightlyConfigure" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="10ee006a-00df-4ccf-ba8a-06d4bfb3402d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/scudb_initial/编程1.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/VERSION.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/buffer/buffer_pool_manager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/buffer/buffer_pool_manager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/buffer/lru_replacer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/buffer/lru_replacer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/catalog/column.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/catalog/column.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/catalog/schema.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/catalog/schema.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/common/config.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/common/config.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/concurrency/lock_manager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/concurrency/lock_manager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/concurrency/transaction_manager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/concurrency/transaction_manager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/disk/disk_manager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/disk/disk_manager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/hash/extendible_hash.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/hash/extendible_hash.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/buffer/buffer_pool_manager.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/buffer/buffer_pool_manager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/buffer/lru_replacer.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/buffer/lru_replacer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/buffer/replacer.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/buffer/replacer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/catalog/column.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/catalog/column.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/catalog/schema.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/catalog/schema.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/common/config.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/common/config.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/common/exception.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/common/exception.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/common/logger.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/common/logger.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/common/rid.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/common/rid.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/common/rwmutex.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/common/rwmutex.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/common/string_utility.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/common/string_utility.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/concurrency/lock_manager.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/concurrency/lock_manager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/concurrency/transaction.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/concurrency/transaction.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/concurrency/transaction_manager.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/concurrency/transaction_manager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/disk/disk_manager.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/disk/disk_manager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/hash/extendible_hash.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/hash/extendible_hash.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/hash/hash_table.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/hash/hash_table.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/index/b_plus_tree.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/index/b_plus_tree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/index/b_plus_tree_index.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/index/b_plus_tree_index.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/index/generic_key.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/index/generic_key.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/index/index.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/index/index.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/index/index_iterator.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/index/index_iterator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/logging/log_manager.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/logging/log_manager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/logging/log_record.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/logging/log_record.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/logging/log_recovery.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/logging/log_recovery.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/page/b_plus_tree_internal_page.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/page/b_plus_tree_internal_page.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/page/b_plus_tree_leaf_page.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/page/b_plus_tree_leaf_page.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/page/b_plus_tree_page.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/page/b_plus_tree_page.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/page/header_page.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/page/header_page.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/page/page.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/page/page.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/page/table_page.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/page/table_page.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/sqlite/sqlite3.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/sqlite/sqlite3.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/sqlite/sqlite3ext.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/sqlite/sqlite3ext.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/table/table_heap.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/table/table_heap.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/table/table_iterator.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/table/table_iterator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/table/tuple.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/table/tuple.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/type/bigint_type.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/type/bigint_type.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/type/boolean_type.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/type/boolean_type.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/type/decimal_type.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/type/decimal_type.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/type/integer_parent_type.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/type/integer_parent_type.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/type/integer_type.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/type/integer_type.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/type/limits.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/type/limits.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/type/numeric_type.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/type/numeric_type.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/type/smallint_type.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/type/smallint_type.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/type/tinyint_type.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/type/tinyint_type.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/type/type.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/type/type.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/type/type_id.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/type/type_id.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/type/type_util.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/type/type_util.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/type/value.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/type/value.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/type/varlen_type.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/type/varlen_type.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/include/vtable/virtual_table.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/include/vtable/virtual_table.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/index/b_plus_tree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/index/b_plus_tree.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/index/b_plus_tree_index.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/index/b_plus_tree_index.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/index/index_iterator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/index/index_iterator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/logging/log_manager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/logging/log_manager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/logging/log_recovery.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/logging/log_recovery.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/page/b_plus_tree_internal_page.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/page/b_plus_tree_internal_page.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/page/b_plus_tree_leaf_page.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/page/b_plus_tree_leaf_page.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/page/b_plus_tree_page.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/page/b_plus_tree_page.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/page/header_page.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/page/header_page.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/page/table_page.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/page/table_page.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/sqlite/shell.c" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/sqlite/shell.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/sqlite/sqlite3.c" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/sqlite/sqlite3.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/table/table_heap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/table/table_heap.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/table/table_iterator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/table/table_iterator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/table/tuple.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/table/tuple.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/type/bigint_type.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/type/bigint_type.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/type/boolean_type.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/type/boolean_type.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/type/decimal_type.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/type/decimal_type.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/type/integer_parent_type.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/type/integer_parent_type.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/type/integer_type.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/type/integer_type.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/type/smallint_type.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/type/smallint_type.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/type/tinyint_type.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/type/tinyint_type.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/type/type.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/type/type.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/type/value.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/type/value.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/type/varlen_type.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/type/varlen_type.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/src/vtable/virtual_table.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/src/vtable/virtual_table.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/test/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/test/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/test/buffer/buffer_pool_manager_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/test/buffer/buffer_pool_manager_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/test/buffer/lru_replacer_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/test/buffer/lru_replacer_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/test/common/rwmutex_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/test/common/rwmutex_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/test/concurrency/lock_manager_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/test/concurrency/lock_manager_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/test/hash/extendible_hash_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/test/hash/extendible_hash_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/test/include/logging/common.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/test/include/logging/common.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/test/include/vtable/testing_vtable_util.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/test/include/vtable/testing_vtable_util.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/test/index/b_plus_tree_concurrent_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/test/index/b_plus_tree_concurrent_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/test/index/b_plus_tree_print_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/test/index/b_plus_tree_print_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/test/index/b_plus_tree_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/test/index/b_plus_tree_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/test/logging/log_manager_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/test/logging/log_manager_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/test/table/header_page_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/test/table/header_page_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/test/table/tuple_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/test/table/tuple_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/test/type/type_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/test/type/type_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/test/vtable/virtual_table_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/test/vtable/virtual_table_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/third_party/gmock/gmock-gtest-all.cc" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/third_party/gmock/gmock-gtest-all.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/third_party/gmock/gmock/gmock.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/third_party/gmock/gmock/gmock.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/third_party/gmock/gmock_main.cc" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/third_party/gmock/gmock_main.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/third_party/gmock/gtest/gtest.h" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/third_party/gmock/gtest/gtest.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scudb_initial/third_party/valgrind/valgrind.supp" beforeDir="false" afterPath="$PROJECT_DIR$/scudb_initial/third_party/valgrind/valgrind.supp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/scudb_initial" />
+  </component>
+  <component name="ProjectId" id="20xdnn1jScb665pYOnMOohDle5v" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="ctest.advertisement.all.test.configuration.is.created" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/scudb_initial" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scudb_initial" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Google Test.lru_replacer_test">
+    <configuration name="BufferPoolManagerTest.SampleTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="buffer_pool_manager_test" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="buffer_pool_manager_test" TEST_CLASS="BufferPoolManagerTest" TEST_METHOD="SampleTest" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExtendibleHashTest.ConcurrentInsertTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="extendible_hash_test" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="extendible_hash_test" TEST_CLASS="ExtendibleHashTest" TEST_METHOD="ConcurrentInsertTest" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExtendibleHashTest.ConcurrentRemoveTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="extendible_hash_test" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="extendible_hash_test" TEST_CLASS="ExtendibleHashTest" TEST_METHOD="ConcurrentRemoveTest" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExtendibleHashTest.SampleTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="extendible_hash_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="extendible_hash_test" TEST_CLASS="ExtendibleHashTest" TEST_METHOD="SampleTest" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LRUReplacerTest.SampleTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="lru_replacer_test" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="lru_replacer_test" TEST_CLASS="LRUReplacerTest" TEST_METHOD="SampleTest" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="b_plus_tree_concurrent_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="b_plus_tree_concurrent_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="b_plus_tree_concurrent_test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="b_plus_tree_print_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="b_plus_tree_print_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="b_plus_tree_print_test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="b_plus_tree_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="b_plus_tree_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="b_plus_tree_test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="buffer_pool_manager_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="buffer_pool_manager_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="buffer_pool_manager_test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="extendible_hash_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="extendible_hash_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="extendible_hash_test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="header_page_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="header_page_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="header_page_test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lock_manager_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="lock_manager_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="lock_manager_test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="log_manager_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="log_manager_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="log_manager_test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lru_replacer_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="lru_replacer_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="lru_replacer_test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rwmutex_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="rwmutex_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="rwmutex_test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tuple_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="tuple_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="tuple_test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="type_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="type_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="type_test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Continuous" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="Continuous" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousBuild" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="ContinuousBuild" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="ContinuousBuild">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousConfigure" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="ContinuousConfigure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="ContinuousConfigure">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousCoverage" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="ContinuousCoverage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="ContinuousCoverage">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousMemCheck" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="ContinuousMemCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="ContinuousMemCheck">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousStart" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="ContinuousStart" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="ContinuousStart">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousSubmit" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="ContinuousSubmit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="ContinuousSubmit">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousTest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="ContinuousTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="ContinuousTest">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinuousUpdate" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="ContinuousUpdate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="ContinuousUpdate">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Experimental" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="Experimental" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalBuild" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="ExperimentalBuild" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="ExperimentalBuild">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalConfigure" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="ExperimentalConfigure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="ExperimentalConfigure">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalCoverage" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="ExperimentalCoverage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="ExperimentalCoverage">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalMemCheck" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="ExperimentalMemCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="ExperimentalMemCheck">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalStart" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="ExperimentalStart" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="ExperimentalStart">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalSubmit" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="ExperimentalSubmit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="ExperimentalSubmit">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalTest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="ExperimentalTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="ExperimentalTest">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExperimentalUpdate" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="ExperimentalUpdate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="ExperimentalUpdate">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Nightly" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="Nightly" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyBuild" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="NightlyBuild" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="NightlyBuild">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyConfigure" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="NightlyConfigure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="NightlyConfigure">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyCoverage" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="NightlyCoverage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="NightlyCoverage">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyMemCheck" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="NightlyMemCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="NightlyMemCheck">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyMemoryCheck" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="NightlyMemoryCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="NightlyMemoryCheck">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyStart" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="NightlyStart" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="NightlyStart">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlySubmit" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="NightlySubmit" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="NightlySubmit">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyTest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="NightlyTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="NightlyTest">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NightlyUpdate" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="NightlyUpdate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="NightlyUpdate">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="check" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="check" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="gtest" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sqlite3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="sqlite3" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sqlite3_shell" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="sqlite3_shell" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="sqlite3_shell">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="virtual_table_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="virtual_table_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SQLite_VTable" RUN_TARGET_NAME="virtual_table_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vtable" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SQLite_VTable" TARGET_NAME="vtable" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All CTest" type="CTestRunConfiguration" factoryName="CTestRun" PROGRAM_PARAMS="--extra-verbose" REDIRECT_INPUT="false" ELEVATE="false" WORKING_DIR="file://$CMakeCurrentGenerationDir$" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_PATH="$CTestCurrentExecutableName$" EXPLICIT_BUILD_TARGET_NAME="all" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Continuous" />
+      <item itemvalue="CMake Application.ContinuousBuild" />
+      <item itemvalue="CMake Application.ContinuousConfigure" />
+      <item itemvalue="CMake Application.ContinuousCoverage" />
+      <item itemvalue="CMake Application.ContinuousMemCheck" />
+      <item itemvalue="CMake Application.ContinuousStart" />
+      <item itemvalue="CMake Application.ContinuousSubmit" />
+      <item itemvalue="CMake Application.ContinuousTest" />
+      <item itemvalue="CMake Application.ContinuousUpdate" />
+      <item itemvalue="CMake Application.Experimental" />
+      <item itemvalue="CMake Application.ExperimentalBuild" />
+      <item itemvalue="CMake Application.ExperimentalConfigure" />
+      <item itemvalue="CMake Application.ExperimentalCoverage" />
+      <item itemvalue="CMake Application.ExperimentalMemCheck" />
+      <item itemvalue="CMake Application.ExperimentalStart" />
+      <item itemvalue="CMake Application.ExperimentalSubmit" />
+      <item itemvalue="CMake Application.ExperimentalTest" />
+      <item itemvalue="CMake Application.ExperimentalUpdate" />
+      <item itemvalue="CMake Application.Nightly" />
+      <item itemvalue="CMake Application.NightlyBuild" />
+      <item itemvalue="CMake Application.NightlyConfigure" />
+      <item itemvalue="CMake Application.NightlyCoverage" />
+      <item itemvalue="CMake Application.NightlyMemCheck" />
+      <item itemvalue="CMake Application.NightlyMemoryCheck" />
+      <item itemvalue="CMake Application.NightlyStart" />
+      <item itemvalue="CMake Application.NightlySubmit" />
+      <item itemvalue="CMake Application.NightlyTest" />
+      <item itemvalue="CMake Application.NightlyUpdate" />
+      <item itemvalue="CMake Application.sqlite3" />
+      <item itemvalue="CMake Application.sqlite3_shell" />
+      <item itemvalue="CMake Application.vtable" />
+      <item itemvalue="CMake Application.check" />
+      <item itemvalue="CMake Application.gtest" />
+      <item itemvalue="CMake Application.virtual_table_test" />
+      <item itemvalue="CTest Application.All CTest" />
+      <item itemvalue="Google Test.b_plus_tree_concurrent_test" />
+      <item itemvalue="Google Test.b_plus_tree_print_test" />
+      <item itemvalue="Google Test.b_plus_tree_test" />
+      <item itemvalue="Google Test.buffer_pool_manager_test" />
+      <item itemvalue="Google Test.extendible_hash_test" />
+      <item itemvalue="Google Test.header_page_test" />
+      <item itemvalue="Google Test.lock_manager_test" />
+      <item itemvalue="Google Test.log_manager_test" />
+      <item itemvalue="Google Test.lru_replacer_test" />
+      <item itemvalue="Google Test.rwmutex_test" />
+      <item itemvalue="Google Test.tuple_test" />
+      <item itemvalue="Google Test.type_test" />
+      <item itemvalue="Google Test.LRUReplacerTest.SampleTest" />
+      <item itemvalue="Google Test.ExtendibleHashTest.SampleTest" />
+      <item itemvalue="Google Test.ExtendibleHashTest.ConcurrentInsertTest" />
+      <item itemvalue="Google Test.ExtendibleHashTest.ConcurrentRemoveTest" />
+      <item itemvalue="Google Test.BufferPoolManagerTest.SampleTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Google Test.BufferPoolManagerTest.SampleTest" />
+        <item itemvalue="Google Test.ExtendibleHashTest.ConcurrentInsertTest" />
+        <item itemvalue="Google Test.ExtendibleHashTest.SampleTest" />
+        <item itemvalue="Google Test.ExtendibleHashTest.ConcurrentRemoveTest" />
+        <item itemvalue="Google Test.LRUReplacerTest.SampleTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="10ee006a-00df-4ccf-ba8a-06d4bfb3402d" name="Default Changelist" comment="" />
+      <created>1636990346977</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636990346977</updated>
+      <workItem from="1636990350957" duration="60000" />
+      <workItem from="1637025456776" duration="2353000" />
+      <workItem from="1637147785863" duration="23060000" />
+      <workItem from="1637223352363" duration="15406000" />
+      <workItem from="1637378365014" duration="1000000" />
+      <workItem from="1637381217410" duration="13664000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/scudb_initial/test/hash/extendible_hash_test.cpp</url>
+          <line>52</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
